@@ -9,7 +9,7 @@ namespace NlogDemo3
 {
     public class Add
     {
-        private static Logger logger = LogManager.GetCurrentClassLogger();
+         private static Logger logger = LogManager.GetCurrentClassLogger();
 
         public static void Sum(int first, int Second)
         {
@@ -24,10 +24,7 @@ namespace NlogDemo3
                 int sum = first + Second;
                 logger.Debug("Debugging with sum operation successfull");
                 logger.Info("Sum Result: " + sum);
-
             }
         }
     }
 }
-
-        
